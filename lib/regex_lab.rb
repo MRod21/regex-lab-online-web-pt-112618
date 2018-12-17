@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  word.each do |word|
+  starts_with_a_vowel.each do |word|
     word.scan(/[^aeiou]/)
   end
 end
